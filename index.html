@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="box">
+        <fieldset>
+            <legend class="title"><b>Formulário</b></legend><br>
+            <div class="userText">
+                <input type="text" name="nome" required>
+                <label for="nome">Nome Completo</label>
+            </div><br>
+            <div class="userText">
+                <input type="email" name="email" required>
+                <label for="email">E-Mail</label>
+            </div><br>
+            <div class="userText">
+                <input type="tel" name="tel" required>
+                <label for="tel">Telefone</label>
+            </div><br>
+            <div class="userDate">
+                <legend><b>Data de Nascimento:</b></legend>
+                <input type="date" required>
+            </div><br>
+            <div class="userRadio">
+                <legend><b>Gênero:</b></legend>
+                <input type="radio" name="genero" required>
+                <label for="genero">Masculino</label>
+                <input type="radio" name="genero" required>
+                <label for="genero">Feminino</label>
+                <input type="radio" name="genero" required>
+                <label for="genero">Outro</label>
+            </div><br>
+            <div class="userCheckBox">
+                <legend><b>Linguagem(ens):</b></legend>
+                <input type="checkbox" name="linguagem1">
+                <label for="linguagem1">HTML</label>
+                <input type="checkbox" name="linguagem2">
+                <label for="linguagem2">CSS</label>
+                <input type="checkbox" name="linguagem3">
+                <label for="linguagem3">JavaScript</label>
+            </div><br>
+            <div class="userText">
+                <input type="text" name="cidade" required>
+                <label for="cidade">Cidade</label>
+            </div><br>
+            <div class="userText">
+                <input type="text" name="estado" required>
+                <label for="estado">Estado</label>
+            </div><br>
+            <div class="userText">
+                <input type="text" name="endereco" required>
+                <label for="endereco">Endereço</label>
+            </div><br>
+            <div class="userTextArea">
+                <legend><b>Um Pouco Sobre Você:</b></legend>
+                <textarea name="textarea"></textarea>
+            </div><br>
+            <div class="button">
+                <button type="button">Enviar</button>
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>
